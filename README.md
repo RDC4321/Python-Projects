@@ -1,6 +1,23 @@
 # Python-Projects
-Hello! This is a repository containing beginner level Python projects that I have made.
+Hello! This is a repository containing the Python projects that I have made.
 
 Table of Contents:    
 **BEGINNER LEVEL**    
-1.) [PROJECT 1 - ORDERING SYSTEM]([url](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%201%20-%20ORDERING%20SYSTEM.py))
+1.) [**PROJECT 1 - ORDERING SYSTEM**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%201%20-%20ORDERING%20SYSTEM.py) - Project that simulates ordering online. Utilizes if/elif/else and f-strings.  
+2.) [**PROJECT 2 - TICKETING SYSTEM**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%202%20-%20TICKETING%20SYSTEM.py) - Project that simulates an online ticketing system utilizing if/elif to produce certain outputs based on different conditions the user inputs.  
+3.) [**PROJECT 3 - TEXT BASED ADVENTURE GAME**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%203%20-%20TEXT%20BASED%20ADVENTURE%20GAME.py) - A text based choose-your-own-adventure game that mostly uses nested if/elifs.  
+4.) [**PROJECT 4 - LOTTERY GAME**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%204%20-%20LOTTERY%20GAME.py) - Simple lottery simulator that makes use of Python's random module.  
+4.1) [**PROJECT 4.1 - USER INPUT RANDOM MODULE**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%204.1%20-%20RANDOM%20MODULE%20TESTS.py) - Experiment project that lets the user input the starting & ending range of numbers to generate random numbers.  
+5.) [**PROJECT 5 - HEADS OR TAILS**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%205%20-%20HEADS%20OR%20TAILS.py) - Project that makes use of random module, if/elif & logical operators, simulates tossing a coin and landing at either heads or tails.  
+6.) [**PROJECT 6 - ROCK PAPER SCISSORS V.1**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%206%20-%20ROCK%20PAPER%20SCISSORS%20V1(TEXT%20BASED).py) - Program that lets a user fight the computer in a rock, paper & scissors game. Utilizes random module, if/elif and lists.  
+6.) [**PROJECT 6.1 - ROCK PAPER SCISSOR V2**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%206%20-%20ROCK%20PAPER%20SCISSORS%20V2(TEXT%20BASED).py) - Same as V.1 except if/elif part of the program is different.  
+7.) [**PROJECT 7 - BASIC ROULLETE**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%207%20-%20BASIC%20ROULLETE.py) - Program that simulates a roullete/lottery, uses the random module, if/elif, and lists/append.  
+7.) [**PROJECT 7.1 - LIST APPEND & EXTEND TESTS**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%207%20-%20LIST%20APPEND%20%26%20EXTEND%20TESTS.py) - Simple data structures project. Experimenting with lists and modification of its data.  
+7.) [**PROJECT 7.1 - LIST METHODS & NESTED LISTS**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%207.1%20-%20LIST%20METHODS%20%26%20NESTED%20LISTS.py) - part 2 of experimenting with lists.  
+8.) [**PROJECT 8 - FIZZBUZZ (LOOPS)**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%208%20-%20FIZZBUZZ%20GAME(LOOPS).py) - Project that utilizes for loops and if/elif.   
+9.) [**PROJECT 9 - RANDOM PASSWORD GENERATOR**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%209%20-%20RANDOM%20PASSWORD%20GENERATOR.py) - Project that acts as a random password generator based on certain user inputs. Utilizes random module, lists, and for loops.  
+9.) [**PROJECT 9.1 - DICE ROLL SIMULATOR**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%209.1%20-%20DICE%20ROLL%20SIMULATOR.py) - Experimenting with loops and random module. A simple program that simulates rolling a dice. It then takes note of how many times it rolled 6.  
+10.) [**PROJECT 10 - HANGMAN**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%2010%20-%20HANGMAN%20GAME.py) - Hangman project that utilizes while loops, if/elifs, lists & the random module. Used boolean variables & multiple ifs, loops & lists.  
+10.) [**PROJECT 10.1 - HANGMAN (WITH ASCII ART & REVISIONS)**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%2010.1%20-%20HANGMAN%20(WITH%20IMPORTED%20ASCII%20ART%20%26%20REVISIONS).py) - Same project with revisions and added module that imported logo, ascii art for the lives and database of words.  
+resource file used is here: [**PROJECT 10.1 - hangman_resources.py**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%2010.1%20-%20hangman_resources.py)  
+11.) [**PROJECT 11 - CAESAR CIPHER**](https://github.com/RDC4321/Python-Projects/blob/main/PROJ%2011%20-%20CAESAR%20CIPHER.py) - Project that simulates the Caesar Cipher. It decrypts/encrypts the users message by shifting the letters by (n) amount of times. Symbols/numbers/spaces are kept as is. Defining of functions, if/elif/else, for & while loops was used.
