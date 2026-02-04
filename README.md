@@ -1,5 +1,5 @@
 # Python-Projects
-Hello! 👋  
+Hello!  
 This repository contains Python projects I’ve built while learning and practicing Python — from beginner fundamentals to small capstone-style projects.
 
 The goal of this repo is to:
@@ -8,7 +8,7 @@ The goal of this repo is to:
 - Build small but complete programs from scratch
 
 Table of Contents:    
-## 📚 Beginner Level Projects
+## Beginner Level Projects
 
 ### 1. Ordering System
 Simulates an online ordering system.  
@@ -109,7 +109,7 @@ Guess which option has more followers.
 
 ---
 
-## ☕ 19. Coffee Machine Project (NEW)
+## 19. Coffee Machine Project (NEW)
 A command-line coffee machine simulation.
 
 **Features:**
@@ -129,7 +129,7 @@ A command-line coffee machine simulation.
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Refactor projects into reusable functions
 - Explore object-oriented programming (OOP)
 - Build more advanced CLI tools
