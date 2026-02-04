@@ -1,5 +1,11 @@
 # Python-Projects
-Hello! This is a repository containing the Python projects that I have made.
+Hello! 👋  
+This repository contains Python projects I’ve built while learning and practicing Python — from beginner fundamentals to small capstone-style projects.
+
+The goal of this repo is to:
+- Strengthen Python fundamentals
+- Practice problem-solving and logic
+- Build small but complete programs from scratch
 
 Table of Contents:    
 **BEGINNER LEVEL**    
