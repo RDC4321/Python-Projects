@@ -107,8 +107,6 @@ Guess which option has more followers.
 **Concepts:** dictionaries, functions, loops, `random`  
 **Resource file:** `higher_lower_data.py`
 
----
-
 ## 19. Coffee Machine Project (NEW)
 A command-line coffee machine simulation.
 
@@ -127,7 +125,13 @@ A command-line coffee machine simulation.
 - Input validation
 - Debugging logic & indentation
 
----
+### 20. Turtle Graphics (OOP & Loops)
+Visual drawing project using Python’s turtle module.  
+**Concepts:** OOP, loops, angles, randomness, graphics
+
+### 21. PrettyTable (OOP & External Package)
+Simple table output using the PrettyTable package.  
+**Concepts:** third-party packages, classes, object methods
 
 ## Next Steps
 - Refactor projects into reusable functions
