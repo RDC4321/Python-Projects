@@ -107,3 +107,29 @@ Guess which option has more followers.
 **Concepts:** dictionaries, functions, loops, `random`  
 **Resource file:** `higher_lower_data.py`
 
+---
+
+## ☕ 19. Coffee Machine Project (NEW)
+A command-line coffee machine simulation.
+
+**Features:**
+- Espresso / Latte / Cappuccino selection
+- Resource management (water, milk, coffee)
+- Coin processing & change handling
+- Profit tracking
+- Report & refill commands
+- Safe checks for insufficient resources or money
+
+**Concepts used:**
+- Nested dictionaries
+- State management
+- Control flow
+- Input validation
+- Debugging logic & indentation
+
+---
+
+## 🚀 Next Steps
+- Refactor projects into reusable functions
+- Explore object-oriented programming (OOP)
+- Build more advanced CLI tools
