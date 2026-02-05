@@ -107,7 +107,7 @@ Guess which option has more followers.
 **Concepts:** dictionaries, functions, loops, `random`  
 **Resource file:** `higher_lower_data.py`
 
-## 19. Coffee Machine Project (NEW)
+## 19. Coffee Machine Project
 A command-line coffee machine simulation.
 
 **Features:**
@@ -132,6 +132,35 @@ Visual drawing project using Python’s turtle module.
 ### 21. PrettyTable (OOP & External Package)
 Simple table output using the PrettyTable package.  
 **Concepts:** third-party packages, classes, object methods
+
+## 22. Coffee Machine (Object-Oriented Programming)
+A command-line coffee machine simulation rebuilt using Object-Oriented Programming (OOP).
+This project demonstrates clean separation of concerns and real-world system design using Python.
+
+### Features
+- Espresso / Latte / Cappuccino selection
+- Ingredient resource tracking (water, milk, coffee)
+- Coin-based payment system
+- Change handling
+- Profit tracking
+- Report & shutdown commands
+
+### OOP Design
+The program is split into multiple classes, each with a single responsibility:
+
+- **MenuItem** – Represents a single drink (name, cost, ingredients)
+- **Menu** – Manages available drinks and user selections
+- **CoffeeMaker** – Handles resources and coffee preparation
+- **MoneyMachine** – Processes coins, payments, and profit
+- **main.py** – Controls program flow and coordinates all classes
+
+### Concepts Used
+- Object-Oriented Programming (OOP)
+- Classes & objects
+- Instance vs class variables
+- Dictionaries & loops
+- Control flow & state management
+- Multi-file Python projects
 
 ## Next Steps
 - Refactor projects into reusable functions
