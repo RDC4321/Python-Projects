@@ -1,18 +1,21 @@
-# Python-Projects
-Hello!  
-This repository contains Python projects I’ve built while learning and practicing Python — from beginner fundamentals to small capstone-style projects.
+# Python Projects
+
+Hello!
+This repository contains Python projects I’ve built while learning and practicing Python — from beginner fundamentals to intermediate, object-oriented programs.
 
 The goal of this repo is to:
 - Strengthen Python fundamentals
 - Practice problem-solving and logic
 - Build small but complete programs from scratch
+- Progress from procedural code to clean OOP design
 
-Table of Contents:    
+---
+
 ## Beginner Level Projects
 
 ### 1. Ordering System
 Simulates an online ordering system.  
-**Concepts:** `if/elif/else`, f-strings
+**Concepts:** if/elif/else, f-strings
 
 ### 2. Ticketing System
 Online ticketing simulation that produces different outputs based on user input.  
@@ -20,29 +23,29 @@ Online ticketing simulation that produces different outputs based on user input.
 
 ### 3. Text-Based Adventure Game
 Choose-your-own-adventure style game using nested conditionals.  
-**Concepts:** nested `if/elif`
+**Concepts:** nested if/elif
 
 ### 4. Lottery Game
 Simple lottery simulator.  
-**Concepts:** `random` module
+**Concepts:** random module
 
 #### 4.1 Random Module (User Input)
 User defines the range for random number generation.
 
 ### 5. Heads or Tails
 Coin toss simulation.  
-**Concepts:** `random`, logical operators
+**Concepts:** random, logical operators
 
 ### 6. Rock Paper Scissors (V1)
 User vs computer Rock–Paper–Scissors game.  
-**Concepts:** lists, conditionals, `random`
+**Concepts:** lists, conditionals, random
 
 ### 6.1 Rock Paper Scissors (V2)
 Same game with a different logic structure.
 
 ### 7. Basic Roulette
 Lottery/roulette simulation.  
-**Concepts:** lists, `append`, `random`
+**Concepts:** lists, append, random
 
 ### 7.1 List Append & Extend Tests
 Experiments with list modification.
@@ -52,20 +55,20 @@ Further practice with lists and nested lists.
 
 ### 8. FizzBuzz
 Classic FizzBuzz challenge.  
-**Concepts:** `for` loops, conditionals
+**Concepts:** for loops, conditionals
 
 ### 9. Random Password Generator
 Generates passwords based on user preferences.  
-**Concepts:** loops, lists, `random`
+**Concepts:** loops, lists, random
 
 ### 9.1 Dice Roll Simulator
 Simulates dice rolls and tracks how often 6 appears.
 
 ### 10. Hangman
 Text-based Hangman game.  
-**Concepts:** loops, lists, booleans, `random`
+**Concepts:** loops, lists, booleans, random
 
-### 10.1 Hangman (With ASCII Art)
+#### 10.1 Hangman (With ASCII Art)
 Revised version with ASCII art and external resources.  
 **Resource file:** `hangman_resources.py`
 
@@ -104,65 +107,80 @@ Improved version using multiple functions and constants.
 
 ### 18. Higher / Lower Game
 Guess which option has more followers.  
-**Concepts:** dictionaries, functions, loops, `random`  
+**Concepts:** dictionaries, functions, loops, random  
 **Resource file:** `higher_lower_data.py`
 
-## 19. Coffee Machine Project
+---
+
+## Intermediate Level Projects
+
+### 19. Coffee Machine (Procedural)
 A command-line coffee machine simulation.
 
 **Features:**
-- Espresso / Latte / Cappuccino selection
-- Resource management (water, milk, coffee)
-- Coin processing & change handling
-- Profit tracking
-- Report & refill commands
-- Safe checks for insufficient resources or money
+- Espresso / Latte / Cappuccino selection  
+- Resource management (water, milk, coffee)  
+- Coin processing & change handling  
+- Profit tracking  
+- Report & refill commands  
+- Safe checks for insufficient resources or money  
 
-**Concepts used:**
-- Nested dictionaries
-- State management
-- Control flow
-- Input validation
-- Debugging logic & indentation
+**Concepts Used:**
+- Nested dictionaries  
+- State management  
+- Control flow  
+- Input validation  
+- Debugging logic & indentation  
+
+---
 
 ### 20. Turtle Graphics (OOP & Loops)
-Visual drawing project using Python’s turtle module.  
+Visual drawing project using Python’s `turtle` module.  
 **Concepts:** OOP, loops, angles, randomness, graphics
+
+---
 
 ### 21. PrettyTable (OOP & External Package)
 Simple table output using the PrettyTable package.  
 **Concepts:** third-party packages, classes, object methods
 
-## 22. Coffee Machine (Object-Oriented Programming)
+---
+
+### 22. Coffee Machine (Object-Oriented Programming)
 A command-line coffee machine simulation rebuilt using Object-Oriented Programming (OOP).
-This project demonstrates clean separation of concerns and real-world system design using Python.
 
-### Features
-- Espresso / Latte / Cappuccino selection
-- Ingredient resource tracking (water, milk, coffee)
-- Coin-based payment system
-- Change handling
-- Profit tracking
-- Report & shutdown commands
+**Features:**
+- Espresso / Latte / Cappuccino selection  
+- Ingredient resource tracking (water, milk, coffee)  
+- Coin-based payment system  
+- Change handling  
+- Profit tracking  
+- Report & shutdown commands  
 
-### OOP Design
+**OOP Design:**
 The program is split into multiple classes, each with a single responsibility:
+- **MenuItem** – Represents a single drink (name, cost, ingredients)  
+- **Menu** – Manages available drinks and user selections  
+- **CoffeeMaker** – Handles resources and coffee preparation  
+- **MoneyMachine** – Processes coins, payments, and profit  
+- **main.py** – Controls program flow and coordinates all classes  
 
-- **MenuItem** – Represents a single drink (name, cost, ingredients)
-- **Menu** – Manages available drinks and user selections
-- **CoffeeMaker** – Handles resources and coffee preparation
-- **MoneyMachine** – Processes coins, payments, and profit
-- **main.py** – Controls program flow and coordinates all classes
+**Concepts Used:**
+- Object-Oriented Programming (OOP)  
+- Classes & objects  
+- Instance vs class variables  
+- Dictionaries & loops  
+- Control flow & state management  
+- Multi-file Python projects  
 
-### Concepts Used
-- Object-Oriented Programming (OOP)
-- Classes & objects
-- Instance vs class variables
-- Dictionaries & loops
-- Control flow & state management
-- Multi-file Python projects
+---
 
 ## Next Steps
-- Refactor projects into reusable functions
-- Explore object-oriented programming (OOP)
-- Build more advanced CLI tools
+- Refactor projects into reusable functions  
+- Explore deeper object-oriented programming concepts  
+- Build more advanced CLI tools and systems  
+
+---
+
+## About This Repository
+This repository documents my progression from beginner Python concepts to intermediate object-oriented programming and multi-file project design.
