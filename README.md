@@ -1,6 +1,6 @@
 # Python Projects
 
-Hello!
+Hello!  
 This repository contains Python projects I’ve built while learning and practicing Python — from beginner fundamentals to intermediate, object-oriented programs.
 
 The goal of this repo is to:
@@ -118,19 +118,19 @@ Guess which option has more followers.
 A command-line coffee machine simulation.
 
 **Features:**
-- Espresso / Latte / Cappuccino selection  
-- Resource management (water, milk, coffee)  
-- Coin processing & change handling  
-- Profit tracking  
-- Report & refill commands  
-- Safe checks for insufficient resources or money  
+- Espresso / Latte / Cappuccino selection
+- Resource management (water, milk, coffee)
+- Coin processing & change handling
+- Profit tracking
+- Report & refill commands
+- Safe checks for insufficient resources or money
 
 **Concepts Used:**
-- Nested dictionaries  
-- State management  
-- Control flow  
-- Input validation  
-- Debugging logic & indentation  
+- Nested dictionaries
+- State management
+- Control flow
+- Input validation
+- Debugging logic & indentation
 
 ---
 
@@ -150,37 +150,58 @@ Simple table output using the PrettyTable package.
 A command-line coffee machine simulation rebuilt using Object-Oriented Programming (OOP).
 
 **Features:**
-- Espresso / Latte / Cappuccino selection  
-- Ingredient resource tracking (water, milk, coffee)  
-- Coin-based payment system  
-- Change handling  
-- Profit tracking  
-- Report & shutdown commands  
+- Espresso / Latte / Cappuccino selection
+- Ingredient resource tracking (water, milk, coffee)
+- Coin-based payment system
+- Change handling
+- Profit tracking
+- Report & shutdown commands
 
 **OOP Design:**
-The program is split into multiple classes, each with a single responsibility:
-- **MenuItem** – Represents a single drink (name, cost, ingredients)  
-- **Menu** – Manages available drinks and user selections  
-- **CoffeeMaker** – Handles resources and coffee preparation  
-- **MoneyMachine** – Processes coins, payments, and profit  
-- **main.py** – Controls program flow and coordinates all classes  
+- **MenuItem** – Represents a single drink
+- **Menu** – Manages available drinks
+- **CoffeeMaker** – Handles resources & preparation
+- **MoneyMachine** – Processes payments
+- **main.py** – Controls program flow
 
 **Concepts Used:**
-- Object-Oriented Programming (OOP)  
-- Classes & objects  
-- Instance vs class variables  
-- Dictionaries & loops  
-- Control flow & state management  
-- Multi-file Python projects  
+- Object-Oriented Programming (OOP)
+- Classes & objects
+- State management
+- Multi-file project design
+
+---
+
+### 23. Command-Line Quiz Engine (OOP)
+A command-line **True/False quiz engine** built using Object-Oriented Programming.
+
+**Features:**
+- Dynamic question loading from external data
+- Question-by-question progression
+- Case-insensitive answer checking
+- Real-time score tracking
+- Final score summary
+
+**Project Structure:**
+- **Question** – Represents a single question
+- **QuizBrain** – Manages quiz flow, scoring, and logic
+- **main.py** – Controls program execution and looping
+
+**Concepts Used:**
+- Object-Oriented Programming (OOP)
+- Classes & objects
+- Boolean logic
+- While loops & state control
+- Multi-file Python project architecture
 
 ---
 
 ## Next Steps
-- Refactor projects into reusable functions  
-- Explore deeper object-oriented programming concepts  
-- Build more advanced CLI tools and systems  
+- Refactor projects into reusable components
+- Explore deeper OOP patterns
+- Build more advanced command-line tools and systems
 
 ---
 
 ## About This Repository
-This repository documents my progression from beginner Python concepts to intermediate object-oriented programming and multi-file project design.
+This repository documents my progression from beginner Python fundamentals to intermediate object-oriented programming and structured, multi-file project design.
