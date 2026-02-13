@@ -220,6 +220,7 @@ This project demonstrates mathematical angle calculation, nested loops, and basi
 **Core Logic**
 Outer loop:
 - Controls number of sides (3–10)
+- 
 Inner loop:
 - Draws one complete polygon
 
