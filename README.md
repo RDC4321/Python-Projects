@@ -252,7 +252,6 @@ This project expands on turtle movement by introducing directional constraints a
 - 🟢 Green → Near origin  
 - 🟡 Yellow → Mid-range  
 - 🔴 Red → Far from origin  
-
 The turtle's color dynamically updates after each move based on its distance from the center, creating a heatmap-style procedural visualization.
 This project demonstrates progression from basic turtle graphics to structured movement systems and behavior-based visual rendering.
 ---
