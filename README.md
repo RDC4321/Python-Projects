@@ -225,5 +225,37 @@ Outer loop:
 Inner loop:
 - Draws one complete polygon
 
+---
+
+### 24.1 Heatmap Random Walk (Structured Movement)
+A structured random walk visualization built using Python Turtle Graphics.
+This project expands on turtle movement by introducing directional constraints and dynamic color mapping based on distance from the origin.
+
+**Features**
+- Grid-based random walk (0°, 90°, 180°, 270°)
+- Prevents immediate 180° reversals (no jitter backtracking)
+- Distance-based RGB heatmap scaling
+- Smooth gradient from green (center) to red (outer range)
+- Distance clamping to control gradient sensitivity
+- Modular function design (`color()` and `direct()`)
+- Persistent center marker overlay
+
+**Concepts Used**
+- Geometry (Pythagorean distance formula)
+- Scaling values into RGB range (0–255)
+- List filtering & control logic
+- Pure functions and modular design
+- Separation of simulation logic and UI elements
+- Procedural art principles
+
+**Visual Logic**
+- 🟢 Green → Near origin  
+- 🟡 Yellow → Mid-range  
+- 🔴 Red → Far from origin  
+
+The turtle's color dynamically updates after each move based on its distance from the center, creating a heatmap-style procedural visualization.
+This project demonstrates progression from basic turtle graphics to structured movement systems and behavior-based visual rendering.
+---
+
 ## About This Repository
 This repository documents my progression from beginner Python fundamentals to intermediate object-oriented programming and structured, multi-file project design.
