@@ -196,7 +196,7 @@ A command-line **True/False quiz engine** built using Object-Oriented Programmin
 
 ---
 
-### PROJ 24 – Generative Geometry (Turtle Graphics)
+### 24. Generative Geometry (Turtle Graphics)
 A Python Turtle project that dynamically generates and overlays multiple regular polygons with randomized RGB colors.
 This project demonstrates mathematical angle calculation, nested loops, and basic generative art techniques.
 
