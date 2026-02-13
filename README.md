@@ -196,25 +196,20 @@ A command-line **True/False quiz engine** built using Object-Oriented Programmin
 
 ---
 
-# PROJ 24 – Generative Geometry (Turtle Graphics)
-
+### PROJ 24 – Generative Geometry (Turtle Graphics)
 A Python Turtle project that dynamically generates and overlays multiple regular polygons with randomized RGB colors.
-
 This project demonstrates mathematical angle calculation, nested loops, and basic generative art techniques.
 
-## What It Does
-
+**Features**
 - Draws polygons from 3 sides (triangle) to 10 sides (decagon)
 - Automatically calculates turning angle using:
-
   angle = 360 / number_of_sides
 
 - Applies a random RGB color to each shape
 - Overlays all polygons from the same starting position
 - Animates the drawing process using Turtle speed control
 
-## Concepts Demonstrated
-
+**Concepts Used:**
 - Nested loops
 - Mathematical geometry (360° rule)
 - RGB color generation
@@ -222,11 +217,9 @@ This project demonstrates mathematical angle calculation, nested loops, and basi
 - Turtle graphics
 - Programmatic shape generation
 
-## Core Logic
-
+**Core Logic**
 Outer loop:
 - Controls number of sides (3–10)
-
 Inner loop:
 - Draws one complete polygon
 
